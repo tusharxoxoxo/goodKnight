@@ -4,6 +4,9 @@ MacOS application, added .csv into duckdb and running queries on that, and creat
 
 -> I have harded the exact location of .csv file in my machine, so for running this, u have update this https://github.com/tusharxoxoxo/goodKnight/blob/main/goodKnight/ExoplanetStore.swift line 161.
 
+        161       let csvFileURL = URL(fileURLWithPath: "/(path)")
+        //goodKnight/ExoplanetStore.swift
+
 -> I've built a macOS application that uses DuckDB to query data from a local CSV file and generate charts. I based this application on the example iOS app provided in the DuckDB repository, which retrieves and visualizes exoplanetary data from an API.
 
 
