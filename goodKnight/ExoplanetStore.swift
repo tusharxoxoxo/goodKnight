@@ -157,7 +157,8 @@ final class ExoplanetStore {
         // Ensure the local CSV file exists in the root of the directory
         //let csvFileURL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
          //   .appendingPathComponent("input.csv")
-        let csvFileURL = URL(fileURLWithPath: "/Users/blouse_man/Downloads/coding/shit-fun/task2/github/goodKnight/input.csv")
+        //let csvFileURL = URL(fileURLWithPath: "/Users/blouse_man/Downloads/coding/shit-fun/task2/github/goodKnight/input.csv")
+        let csvFileURL = URL(fileURLWithPath: "/(path)")
         if FileManager.default.fileExists(atPath: csvFileURL.path) {
             print("File exists!")
         } else {
