@@ -1,7 +1,8 @@
 MacOS application, added .csv into duckdb and running queries on that, and creating charts of that
 
 -> I have not included the .csv file, it was > 100 MB, for that i need to git lfs, that's why i have ignored uploading it to the github repo, i have excluded it in the .gitignore file
--> i have harded the exact location of .csv file in my machine, so for running this, u have update this https://github.com/tusharxoxoxo/goodKnight/blob/main/goodKnight/ExoplanetStore.swift line 161.
+
+-> I have harded the exact location of .csv file in my machine, so for running this, u have update this https://github.com/tusharxoxoxo/goodKnight/blob/main/goodKnight/ExoplanetStore.swift line 161.
 
 -> I've built a macOS application that uses DuckDB to query data from a local CSV file and generate charts. I based this application on the example iOS app provided in the DuckDB repository, which retrieves and visualizes exoplanetary data from an API.
 
